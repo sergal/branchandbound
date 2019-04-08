@@ -120,3 +120,4 @@ while start_point is None or not (0 < start_point <= size):
 result_path = min_path(start_point - 1, size)
 print(str.format("Стоимость минимального маршрута: {}", result_path.length))
 print(str.format("Минимальный маршрут: {}", result_path.route_str))
+input("Нажмите Enter для выхода")
